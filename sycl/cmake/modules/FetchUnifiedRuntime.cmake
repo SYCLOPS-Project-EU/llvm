@@ -116,7 +116,7 @@ if(SYCL_UR_USE_FETCH_CONTENT)
       CACHE PATH "Path to external '${name}' adapter source dir" FORCE)
   endfunction()
 
-  set(UNIFIED_RUNTIME_REPO "https://github.com/oneapi-src/unified-runtime.git")
+  set(UNIFIED_RUNTIME_REPO "https://github.com/SYCLOPS-Project-EU/unified-runtime.git")
   # commit 185149248dd257bd37482aac43307a136204c051
   # Merge: 2af159d4 d619bcd1
   # Author: Piotr Balcer <piotr.balcer@intel.com>
